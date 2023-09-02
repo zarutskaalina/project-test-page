@@ -1,0 +1,50 @@
+@import url('./header.css');
+
+:root {
+  --main-font-family: 'Montserrat', sans-serif;
+  --accent-color: #ffcd01;
+  --primary-text-color-theme-dark: #ffffff;
+  --primary-text-color-theme-light: #333333;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  background: #fffefc;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 1770px;
+}
