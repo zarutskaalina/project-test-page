@@ -1,4 +1,5 @@
 @import url('./header.css');
+@import url('./hero.css');
 
 :root {
   --main-font-family: 'Montserrat', sans-serif;
@@ -46,5 +47,5 @@ img {
 .container {
   padding-left: 32px;
   padding-right: 32px;
-  width: 1770px;
+  width: 1920px;
 }
