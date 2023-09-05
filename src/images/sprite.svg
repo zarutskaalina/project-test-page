@@ -97,9 +97,10 @@
 </symbol>
 
 
-<symbol id="icon-arrow-scroll" viewBox="0 0 22 32">
-<path stroke-linejoin="bevel" stroke-linecap="square" stroke-miterlimit="4" stroke-width="1.1034" d="M11.096 0.551v30.897M11.096 31.448l9.931-9.931M11.096 31.448l-9.931-9.931"></path>
+<symbol id="icon-arrow-down" viewBox="0 0 20 20">
+<path d="M9 16.172l-6.071-6.071-1.414 1.414 8.485 8.485 8.485-8.485-1.414-1.414-6.071 6.071v-16.172h-2z"></path>
 </symbol>
+
 
 </defs>
 </svg>

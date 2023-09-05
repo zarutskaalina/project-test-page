@@ -10,11 +10,6 @@
   gap: 40px;
 }
 
-.wrapper {
-  font-family: var(--main-font-family);
-  color: var(--primary-text-color-theme-light);
-}
-
 .hero-title {
   font-weight: 900;
   font-size: 90px;
@@ -51,10 +46,22 @@
   background-repeat: no-repeat;
 }
 
-.hero-arroe-scroll-down-wrapper {
+.hero-arrow-scroll-down-wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  margin-bottom: 47px;
+}
+
+.arrow-scroll-down-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.5px;
+  color: var(--primary-text-color-theme-light);
+}
+.arrow-scroll-down-btn {
+  background-color: #fff;
+  border: none;
+  display: flex;
 }
 
 .arrow-scroll-down-icon {
