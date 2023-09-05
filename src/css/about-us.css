@@ -1,0 +1,59 @@
+.about-us-page {
+  justify-content: center;
+  margin-top: 100px;
+  padding: 50px 0;
+  display: flex;
+  background: linear-gradient(134.04deg, #ffdf00 -7.01%, #ffb800 109.07%),
+    linear-gradient(0deg, #fffefc, #fffefc);
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-content {
+  margin-right: 190px;
+}
+
+.about-us-title {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 55px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 50px 0 28px 0;
+}
+
+.about-us-secondaty-title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.5px;
+}
+
+.about-us-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.icon-our-work-wrapper {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.icon-ukraine-community {
+  fill: #019ad2;
+  stroke-width: 0.1px;
+  stroke: #019ad2;
+}
+
+.icon-wrapper {
+  margin-right: 64px;
+}
