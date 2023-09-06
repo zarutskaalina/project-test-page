@@ -1,0 +1,42 @@
+.drupal-page-container {
+  margin-bottom: 100px;
+}
+
+.drupal-page-title {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 55px;
+  margin-bottom: 50px;
+}
+
+.our-drupal-project {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.our-drupal-project-item {
+  border-radius: 10px;
+  width: 570px;
+  background: linear-gradient(
+      0deg,
+      rgba(69, 77, 82, 0.05),
+      rgba(69, 77, 82, 0.05)
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border: 2px solid #454d520d;
+}
+
+.drupal-project-content {
+  margin: 20px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.drupal-project-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 15px 0 15px 0;
+  width: 510px;
+}

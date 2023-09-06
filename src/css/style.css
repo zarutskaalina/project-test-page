@@ -3,6 +3,7 @@
 @import url('./choose-us.css');
 @import url('./about-us.css');
 @import url('./our-advantages.css');
+@import url('./drupal.css');
 
 :root {
   --main-font-family: 'Montserrat', sans-serif;

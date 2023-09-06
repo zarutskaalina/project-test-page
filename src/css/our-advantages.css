@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+/* .our-advantages-container {
+
+} */
+
 .our-advantages-title {
   font-size: 44px;
   font-weight: 800;
@@ -130,6 +134,6 @@
 
 .advantages-gallery {
   display: flex;
-  justify-content: space-around;
-  gap: 14px;
+  justify-content: space-between;
+  gap: 10px;
 }
