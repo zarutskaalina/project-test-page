@@ -1,0 +1,22 @@
+.charity-page {
+  display: flex;
+  justify-content: center;
+}
+
+.charity-title {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 55px;
+  margin-bottom: 76px;
+}
+
+.charity-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.charity-text {
+  width: 749px;
+  font-size: 20px;
+  line-height: 30px;
+}
