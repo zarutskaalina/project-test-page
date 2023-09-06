@@ -4,15 +4,18 @@
   justify-content: center;
 }
 
-/* .our-advantages-container {
-  position: relative;
-} */
+.our-advantages-title {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 55px;
+}
 
 .circle-block {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 214px;
+  margin: 214px 0 219px 0;
+  position: relative;
 }
 
 .circle {
@@ -123,4 +126,10 @@
 .advantages-accounts {
   top: 2475px;
   left: 1088px;
+}
+
+.advantages-gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 14px;
 }
