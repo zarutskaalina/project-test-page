@@ -6,6 +6,7 @@
 @import url('./drupal.css');
 @import url('./our-partners.css');
 @import url('./charity.css');
+@import url('./footer.css');
 
 :root {
   --main-font-family: 'Montserrat', sans-serif;
@@ -54,6 +55,7 @@ img {
 
 button {
   cursor: pointer;
+  font-family: var(--main-font-family);
 }
 
 .container {

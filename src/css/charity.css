@@ -3,6 +3,10 @@
   justify-content: center;
 }
 
+.charity-container {
+  margin-bottom: 100px;
+}
+
 .charity-title {
   font-size: 44px;
   font-weight: 800;
@@ -15,8 +19,93 @@
   justify-content: space-between;
 }
 
-.charity-text {
+.charity-wrapper {
   width: 749px;
   font-size: 20px;
   line-height: 30px;
+}
+
+.charity-wrapper-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.charity-wrapper-text {
+  font-weight: 400;
+}
+
+.gallery-list {
+  position: relative;
+}
+
+.gallery-list-item {
+  position: absolute;
+}
+
+.gallery-1 {
+  top: 47px;
+  right: 118px;
+  z-index: 3;
+}
+
+.gallery-2 {
+  top: -75px;
+  right: 463px;
+  z-index: 2;
+}
+
+.gallery-3 {
+  top: -134px;
+  right: 0px;
+  z-index: auto;
+}
+
+/* Wrapper-project */
+.wrapper-project {
+  margin-top: 164px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.project-btn {
+  width: 570px;
+  height: 257px;
+  box-shadow: 0px 0px 20px 0px rgba(75, 85, 89, 0.1);
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.project-btn:hover,
+.project-btn:focus {
+  background: rgba(255, 208, 14, 1);
+}
+
+.project-content {
+  margin: 36px 24px 36px 24px;
+}
+
+.icon-project {
+  margin-bottom: 16px;
+  stroke: #50ab09;
+  stroke-width: 0.3;
+  fill: none;
+}
+
+.project-title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.5px;
+  margin-bottom: 16px;
+}
+
+.project-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
