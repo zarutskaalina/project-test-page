@@ -1,3 +1,8 @@
+.drupal-page {
+  display: flex;
+  justify-content: center;
+}
+
 .drupal-page-container {
   margin-bottom: 100px;
 }
@@ -11,7 +16,7 @@
 
 .our-drupal-project {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   gap: 30px;
 }
 
@@ -33,10 +38,22 @@
   flex-direction: column;
 }
 
-.drupal-project-text {
+.drupal-project-title {
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;
   margin: 15px 0 15px 0;
   width: 510px;
+}
+
+.drupal-project-text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+
+  /*
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+*/
 }
