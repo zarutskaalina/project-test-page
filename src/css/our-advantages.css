@@ -1,12 +1,8 @@
 .our-advantages-page {
-  margin: 100px 0 100px 0;
+  padding: 100px 0 100px 0;
   display: flex;
   justify-content: center;
 }
-
-/* .our-advantages-container {
-
-} */
 
 .our-advantages-title {
   font-size: 44px;
@@ -18,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 214px 0 219px 0;
+  padding: 214px 0 219px 0;
   position: relative;
 }
 
@@ -44,20 +40,11 @@
   align-items: center;
 }
 
-/* /* .semicircle {
-  width: 100px;
-  height: 50px;
-  border-radius: 100px 100px 0 0;
-  border-top: 5px solid red;
-  border-left: 5px solid red;
-  border-right: 5px solid red;
-} */
-
 .advantages-item {
-  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: absolute;
 }
 
 .left {
@@ -80,27 +67,51 @@
 
 .advantages-time {
   top: 2475px;
-  left: 213px;
+  left: 200px;
+}
+
+.icon-time {
+  stroke: rgba(51, 51, 51, 1);
+  stroke-width: 0.8;
+  fill: none;
 }
 
 .advantages-location {
   top: 2622px;
-  left: 79px;
+  left: 100px;
+}
+
+.icon-location {
+  fill: rgba(51, 51, 51, 1);
 }
 
 .advantages-software-developer {
   top: 2770px;
-  left: 30px;
+  left: 0px;
+}
+
+.icon-software-developer {
+  stroke: rgba(51, 51, 51, 1);
+  stroke-width: 0.8;
+  fill: none;
 }
 
 .advantages-atom {
   top: 2918px;
-  left: 79px;
+  left: 100px;
+}
+
+.icon-atom {
+  fill: rgba(51, 51, 51, 1);
 }
 
 .advantages-meeting {
   top: 3065px;
-  left: 213px;
+  left: 200px;
+}
+
+.icon-meeting {
+  fill: rgba(51, 51, 51, 1);
 }
 
 .right-side {
@@ -109,27 +120,51 @@
 
 .advantages-xbox {
   top: 3065px;
-  left: 1088px;
+  right: 200px;
+}
+
+.icon-xbox {
+  fill: rgba(51, 51, 51, 1);
 }
 
 .advantages-workspace {
   top: 2918px;
-  left: 1221px;
+  right: 100px;
+}
+
+.icon-workspace {
+  fill: rgba(51, 51, 51, 1);
 }
 
 .advantages-module {
   top: 2770px;
-  left: 1254px;
+  right: 0px;
+}
+
+.icon-module {
+  fill: rgba(51, 51, 51, 1);
 }
 
 .advantages-client {
   top: 2622px;
-  left: 1221px;
+  right: 100px;
+}
+
+.icon-client {
+  stroke: rgba(51, 51, 51, 1);
+  stroke-width: 0.8;
+  fill: none;
 }
 
 .advantages-accounts {
+  right: 200px;
   top: 2475px;
-  left: 1088px;
+}
+
+.icon-accounts {
+  stroke: rgba(51, 51, 51, 1);
+  stroke-width: 0.8;
+  fill: none;
 }
 
 .advantages-gallery {

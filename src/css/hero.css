@@ -1,7 +1,11 @@
 .hero-section {
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
+  background-image: url(../images/hero.img/background-img.jpg);
+  background-position: 100% 40%;
+  background-size: 900px;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -39,17 +43,16 @@
   line-height: 25px;
 }
 
-.hero-img {
-  background-image: url(../images/hero.img/background-img.jpg);
-  background-position: 50% 60%;
-  background-size: 729px;
-  background-repeat: no-repeat;
-}
-
 .hero-arrow-scroll-down-wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 47px;
+}
+
+.hero-arrow-scroll-down-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .arrow-scroll-down-title {
@@ -58,10 +61,12 @@
   line-height: 17.5px;
   color: var(--primary-text-color-theme-light);
 }
+
 .arrow-scroll-down-btn {
   background-color: #fff;
   border: none;
   display: flex;
+  justify-content: center;
 }
 
 .arrow-scroll-down-icon {

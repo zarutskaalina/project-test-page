@@ -2,32 +2,29 @@
   <div class="header-page-container container">
     <nav class="page-nav">
       <a class="logo-type" href="./index.html">
-        <img
-          class="logo-type-img"
-          src="./images/logo.png"
-          alt="Логотип веб-студії"
-          width="266"
-        />
+        <svg class="header-logo" width="266" height="66">
+          <use href="./images/sprite.svg#icon-header-logo"></use>
+        </svg>
       </a>
       <ul class="menu list">
         <li class="menu-item">
-          <a class="menu-link link" href="">Чому ми?</a>
+          <a class="menu-link link" href="#why-us">Чому ми?</a>
         </li>
 
         <li class="menu-item">
-          <a class="menu-link link" href="">Партнери</a>
+          <a class="menu-link link" href="#our-partners">Партнери</a>
         </li>
 
         <li class="menu-item">
-          <a class="menu-link link" href=".">Благодійність</a>
+          <a class="menu-link link" href="#charity">Благодійність</a>
         </li>
 
         <li class="menu-item">
-          <a class="menu-link link" href="">Про нас</a>
+          <a class="menu-link link" href="#about-us">Про нас</a>
         </li>
 
         <li class="menu-item">
-          <a class="menu-link link" href="">Drupal</a>
+          <a class="menu-link link" href="#drupal">Drupal</a>
         </li>
       </ul>
     </nav>
@@ -60,15 +57,18 @@
 
     <address class="contacts">
       <p class="contacts-work-schedule">Пн-Пт з 10 до 18</p>
-      <a class="contacts-tel-link link" href="tel:0800759759"
-        >0 (800) 759-759</a
-      >
-
-      <button type="button" class="scroll-down-btn">
-        <svg class="scroll-down-btn-icon" width="12" height="8">
-          <use href="./images/sprite.svg#icon-scroll-down"></use>
-        </svg>
-      </button>
+      <div class="anchor-wrapper">
+        <a class="contacts-tel-link link" href="tel:0800759759"
+          >0 (800) 759-759</a
+        >
+        <a href="#footer" class="link">
+          <button type="button" class="scroll-down-btn">
+            <svg class="scroll-down-btn-icon" width="12" height="8">
+              <use href="./images/sprite.svg#icon-scroll-down"></use>
+            </svg>
+          </button>
+        </a>
+      </div>
     </address>
   </div>
 </header>

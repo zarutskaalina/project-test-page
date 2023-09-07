@@ -25,3 +25,14 @@
   border: none;
   box-shadow: 0px 0px 20px 0px #4b55591a;
 }
+
+.partners-logo {
+  fill: rgba(45, 48, 55, 1);
+}
+
+.partners-logo-pharmacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}

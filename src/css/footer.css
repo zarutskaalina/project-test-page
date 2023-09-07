@@ -61,10 +61,53 @@
 }
 
 .contacts-tel {
+  font-family: Century Gothic;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 24px;
   color: var(--primary-text-color-theme-dark);
+}
+
+.contacts-email {
+  color: var(--primary-text-color-theme-dark);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: Century Gothic;
 }
 
 .social-media-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.icon-footer-instagram {
+  fill: #fff;
+}
+
+.address-item {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.gps {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.gps-value {
+  text-decoration: underline;
+}
+
+.contacts-title {
+  margin-bottom: 8px;
+}
+
+.icon-startups-logo {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 23px;
+  column-gap: 44px;
 }

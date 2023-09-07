@@ -87,10 +87,10 @@
 }
 
 .project-content {
-  margin: 36px 24px 36px 24px;
+  margin: 0 24px 0 24px;
 }
 
-.icon-project {
+.icon-emblem {
   margin-bottom: 16px;
   stroke: #50ab09;
   stroke-width: 0.3;
