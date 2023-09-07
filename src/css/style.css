@@ -58,6 +58,10 @@ button {
   font-family: var(--main-font-family);
 }
 
+address {
+  font-style: normal;
+}
+
 .container {
   padding-left: 32px;
   padding-right: 32px;

@@ -1,5 +1,70 @@
-.text-wrapper {
-  width: 525px;
-  height: 405px;
+.footer-page {
   background: rgba(255, 208, 14, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 30px 55px 0;
+}
+
+.icon-footer-logo {
+  margin-bottom: 30px;
+}
+
+.text-wrapper-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 420px;
+}
+
+.content {
+  margin-top: 55px;
+}
+
+.wrapper-bg {
+  color: var(--primary-text-color-theme-dark);
+  background-image: linear-gradient(
+      rgba(45, 44, 44, 0.9),
+      rgba(45, 44, 44, 0.9)
+    ),
+    url(https://randompicturegenerator.com/img/people-generator/gaa88c32358ce4aa9e903b977c034bb8a4c70b06df224fa02ea511cdccf8e8d9b180635b88d279f08f631cd0447e6a907_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-contacts-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 120px;
+  gap: 140px;
+}
+
+.contacts-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contacts-item {
+  margin-bottom: 20px;
+}
+
+.contacts-tel {
+  color: var(--primary-text-color-theme-dark);
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: space-between;
 }
