@@ -17,7 +17,10 @@
   align-items: center;
 }
 
-.partners-btn {
+.partners-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 147px;
   background: #ffffff;
@@ -31,8 +34,5 @@
 }
 
 .partners-logo-pharmacy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
+  margin: 0 auto;
 }

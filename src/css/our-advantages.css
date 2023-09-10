@@ -8,6 +8,7 @@
   font-size: 44px;
   font-weight: 800;
   line-height: 55px;
+  margin-bottom: 50px;
 }
 
 .circle-block {
@@ -66,8 +67,8 @@
 }
 
 .advantages-time {
-  top: 2475px;
-  left: 200px;
+  top: 60px;
+  left: 160px;
 }
 
 .icon-time {
@@ -77,8 +78,8 @@
 }
 
 .advantages-location {
-  top: 2622px;
-  left: 100px;
+  top: 233px;
+  left: 25px;
 }
 
 .icon-location {
@@ -86,7 +87,7 @@
 }
 
 .advantages-software-developer {
-  top: 2770px;
+  top: 382px;
   left: 0px;
 }
 
@@ -97,8 +98,8 @@
 }
 
 .advantages-atom {
-  top: 2918px;
-  left: 100px;
+  bottom: 200px;
+  left: 25px;
 }
 
 .icon-atom {
@@ -106,8 +107,8 @@
 }
 
 .advantages-meeting {
-  top: 3065px;
-  left: 200px;
+  bottom: 49px;
+  left: 160px;
 }
 
 .icon-meeting {
@@ -119,8 +120,8 @@
 }
 
 .advantages-xbox {
-  top: 3065px;
-  right: 200px;
+  top: 60px;
+  right: 160px;
 }
 
 .icon-xbox {
@@ -128,8 +129,8 @@
 }
 
 .advantages-workspace {
-  top: 2918px;
-  right: 100px;
+  top: 233px;
+  right: 25px;
 }
 
 .icon-workspace {
@@ -137,7 +138,7 @@
 }
 
 .advantages-module {
-  top: 2770px;
+  top: 382px;
   right: 0px;
 }
 
@@ -146,8 +147,8 @@
 }
 
 .advantages-client {
-  top: 2622px;
-  right: 100px;
+  bottom: 200px;
+  right: 25px;
 }
 
 .icon-client {
@@ -157,8 +158,8 @@
 }
 
 .advantages-accounts {
-  right: 200px;
-  top: 2475px;
+  bottom: 49px;
+  right: 160px;
 }
 
 .icon-accounts {
@@ -171,4 +172,64 @@
   display: flex;
   justify-content: space-between;
   gap: 10px;
+}
+
+.circle-style {
+  width: 20px;
+  height: 20px;
+  opacity: 30%;
+  background: linear-gradient(134.92deg, #ffdb65 14.54%, #ff8c33 90.15%),
+    linear-gradient(134.04deg, #ffdf00 -7.01%, #ffb800 109.07%);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle-icon-time {
+  right: -25px;
+  top: 140px;
+}
+
+.circle-icon-location {
+  top: 65px;
+  right: -84px;
+}
+
+.circle-icon-software-developer {
+  top: 50px;
+  right: -85px;
+}
+
+.circle-icon-atom {
+  top: 23px;
+  right: -101px;
+}
+
+.circle-icon-metting {
+  bottom: 135px;
+  right: -61px;
+}
+
+.circle-icon-xbox {
+  top: 140px;
+  left: -25px;
+}
+
+.circle-icon-workspace {
+  top: 65px;
+  left: -84px;
+}
+
+.circle-icon-module {
+  top: 50px;
+  left: -85px;
+}
+
+.circle-icon-client {
+  top: 6px;
+  left: -101px;
+}
+
+.circle-icon-accounts {
+  bottom: 135px;
+  left: -61px;
 }

@@ -72,3 +72,31 @@
 .arrow-scroll-down-icon {
   fill: var(--primary-text-color-theme-light);
 }
+
+.interface-style-circle-middle {
+  background: linear-gradient(134.04deg, #ffdf00 -7.01%, #ffb800 109.07%);
+  opacity: 15%;
+  border-radius: 50%;
+  width: 218px;
+  height: 218px;
+  margin: 0 0 99px 596px;
+}
+
+.interface-style-circle-smallest {
+  position: absolute;
+  background: linear-gradient(134.04deg, #ffdf00 -7.01%, #ffb800 109.07%);
+  opacity: 15%;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+}
+/* 
+.interface-style-circle-largest {
+  position: absolute;
+  background: linear-gradient(134.04deg, #ffdf00 -7.01%, #ffb800 109.07%);
+  opacity: 15%;
+  border-radius: 50%;
+  height: 436px;
+  width: 436px;
+  margin: 0 1624px 0 0;
+} */
